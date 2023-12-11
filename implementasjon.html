@@ -35,6 +35,17 @@
 
     // Skrive ut Ingen Ingemanns til konsoll 
     console.log(people[1].office)
+
+    // SELECTORER 
+    // Returnerer et object for HTML-elementet med id="mainmeny" 
+    const menu = document.getElementById("mainmeny")
+
+    //Returnerer et object for det første HTML-elementet med class="hightlight"
+    const firstHightlight = document.querySelector(".hightlight")
+
+    //Returnerer en array med objecter for alle listeelementer i dokumentet med class="hightlight"
+    const hightlights = document.querySelectorAll("li.hightlight")
+
   </script>
 </body>
 </html>
