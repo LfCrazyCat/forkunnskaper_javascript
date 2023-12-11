@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Implementasjon</title>
+</head>
+<body>
+  
+  <!-- Implementerer før avsluttende body-taggen for å sikre at HTML-DOM-en er lstet
+  inn før scriptet kjøres -->
+  <script src="minescripts.js"></script>
+
+  <script>
+    // SYNTAX
+    // Deklarasjon av en konstant variabel 
+    const name = "Louise"
+
+    // Deklarasjon av variabel som kan endre verdi 
+    let age = 32
+
+    // Array med objecter 
+    const people = [
+      {
+        fullname: "Louise Fosdahl",
+        office: "none",
+        email: "louise.fosdahl@hiof.no"
+      },
+      {
+        fullname: "Ingen Ingenmanns", 
+        office: "LAX",
+        email: "none@hiof.no"
+      }
+    ]
+
+    // Skrive ut Ingen Ingemanns til konsoll 
+    console.log(people[1].office)
+  </script>
+</body>
+</html>
